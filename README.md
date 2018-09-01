@@ -54,6 +54,5 @@ endif()
 4.再次点击configure不报错，然后点击genarate成功。
 5.工程中打开之前我们新建的build文件夹下面的ES3_Book.sln。编译成功，然后把hello_triangle设置为启动
 工程，编译会报错找不到gles的库，这里需要修改工程库目录以及导入库文件libGLESv2.lib和libEGL.lib。
-6.编译正常后，启动又报错找不到build\Chapter_2\Hello_Triangle\RelWithDebInfo\openglessl
-	我们直接把Mali_OpenGL_ES_Emulator-v3.0.2.g694a9-Windows-64bit里面这个文件夹里面相关的东西copy过来就好了。
+6.编译正常后，启动又报错找不到build\Chapter_2\Hello_Triangle\RelWithDebInfo\openglessl，我们直接把Mali_OpenGL_ES_Emulator-v3.0.2.g694a9-Windows-64bit里面这个文件夹里面相关的东西copy过来就好了。
 7.总算正常啦，真不容易。还有需要注意的就是你设置编译的是64位，一定要注意哦，很重要。
