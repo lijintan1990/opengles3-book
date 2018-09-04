@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{94849287-8ECE-34D1-93E2-43942B493B6E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\statics\opengles3.0\opengles3-book\External\Include;D:\statics\opengles3.0\opengles3-book\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\statics\opengles3.0\opengles3-book\External\Include;D:\statics\opengles3.0\opengles3-book\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\statics\opengles3.0\opengles3-book\External\Include;D:\statics\opengles3.0\opengles3-book\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\statics\opengles3.0\opengles3-book\External\Include;D:\statics\opengles3.0\opengles3-book\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\statics\opengles3.0\opengles3-book\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/statics/opengles3.0/opengles3-book/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\cmake-3.12.1-win64-x64\bin\cmake.exe -HD:/statics/opengles3.0/opengles3-book -BD:/statics/opengles3.0/opengles3-book/build --check-stamp-file D:/statics/opengles3.0/opengles3-book/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/statics/opengles3.0/opengles3-book/CMakeLists.txt;D:\statics\opengles3.0\opengles3-book\CMakeLists.txt;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeCCompiler.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeCXXCompiler.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeRCCompiler.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeSystem.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\feature_tests.c;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\feature_tests.cxx;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCCompilerABI.c;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeRCInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeSystem.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\statics\opengles3.0\opengles3-book\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/statics/opengles3.0/opengles3-book/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\cmake-3.12.1-win64-x64\bin\cmake.exe -HD:/statics/opengles3.0/opengles3-book -BD:/statics/opengles3.0/opengles3-book/build --check-stamp-file D:/statics/opengles3.0/opengles3-book/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/statics/opengles3.0/opengles3-book/CMakeLists.txt;D:\statics\opengles3.0\opengles3-book\CMakeLists.txt;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeCCompiler.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeCXXCompiler.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeRCCompiler.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeSystem.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\feature_tests.c;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\feature_tests.cxx;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCCompilerABI.c;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeRCInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeSystem.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\statics\opengles3.0\opengles3-book\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/statics/opengles3.0/opengles3-book/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\cmake-3.12.1-win64-x64\bin\cmake.exe -HD:/statics/opengles3.0/opengles3-book -BD:/statics/opengles3.0/opengles3-book/build --check-stamp-file D:/statics/opengles3.0/opengles3-book/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/statics/opengles3.0/opengles3-book/CMakeLists.txt;D:\statics\opengles3.0\opengles3-book\CMakeLists.txt;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeCCompiler.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeCXXCompiler.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeRCCompiler.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeSystem.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\feature_tests.c;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\feature_tests.cxx;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCCompilerABI.c;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeRCInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeSystem.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\statics\opengles3.0\opengles3-book\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/statics/opengles3.0/opengles3-book/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\cmake-3.12.1-win64-x64\bin\cmake.exe -HD:/statics/opengles3.0/opengles3-book -BD:/statics/opengles3.0/opengles3-book/build --check-stamp-file D:/statics/opengles3.0/opengles3-book/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/statics/opengles3.0/opengles3-book/CMakeLists.txt;D:\statics\opengles3.0\opengles3-book\CMakeLists.txt;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeCCompiler.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeCXXCompiler.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeRCCompiler.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\3.12.1\CMakeSystem.cmake;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\feature_tests.c;D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\feature_tests.cxx;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCCompilerABI.c;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeRCInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeSystem.cmake.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\Windows.cmake;E:\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\statics\opengles3.0\opengles3-book\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\ZERO_CHECK.vcxproj">
+      <Project>{56DECB24-A40B-3890-974C-A65228B00403}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Common\Common.vcxproj">
+      <Project>{E45ED2A2-A739-3A41-AC4E-50A1560672CB}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_6\Example_6_3\Example_6_3.vcxproj">
+      <Project>{30FAAF5F-E130-3C99-9330-CCBC136F627C}</Project>
+      <Name>Example_6_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_6\Example_6_6\Example_6_6.vcxproj">
+      <Project>{E29DDC2E-4152-3BFA-9B7D-C110E9EA6738}</Project>
+      <Name>Example_6_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_2\Hello_Triangle\Hello_Triangle.vcxproj">
+      <Project>{F2B00FD7-8803-35E7-AA53-C29FA5DEC70F}</Project>
+      <Name>Hello_Triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_7\Instancing\Instancing.vcxproj">
+      <Project>{8D874995-282F-347E-950B-7E7F6874BD31}</Project>
+      <Name>Instancing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_11\MRTs\MRTs.vcxproj">
+      <Project>{C8176DBD-C43E-3810-A002-BCC0602B3E14}</Project>
+      <Name>MRTs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_6\MapBuffers\MapBuffers.vcxproj">
+      <Project>{8AC1EC43-4568-3A45-ABF9-11C2982980B9}</Project>
+      <Name>MapBuffers</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_9\MipMap2D\MipMap2D.vcxproj">
+      <Project>{3CC3D138-AC42-39A0-960F-971F6AB07A44}</Project>
+      <Name>MipMap2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_10\MultiTexture\MultiTexture.vcxproj">
+      <Project>{7400BE9B-FD48-320E-9351-202677B07C4C}</Project>
+      <Name>MultiTexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_14\Noise3D\Noise3D.vcxproj">
+      <Project>{26C380DA-26AB-307B-8AA6-E5313AFED641}</Project>
+      <Name>Noise3D</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_14\ParticleSystem\ParticleSystem.vcxproj">
+      <Project>{D9872CA1-B678-3212-928F-AA7116B7FF00}</Project>
+      <Name>ParticleSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_14\ParticleSystemTransformFeedback\ParticleSystemTransformFeedback.vcxproj">
+      <Project>{BCC98133-9BED-31A5-98BA-9EEAAF2ECDF0}</Project>
+      <Name>ParticleSystemTransformFeedback</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_14\Shadows\Shadows.vcxproj">
+      <Project>{2D1D28F0-5916-3779-BAA2-4F6F43775E1B}</Project>
+      <Name>Shadows</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_9\Simple_Texture2D\Simple_Texture2D.vcxproj">
+      <Project>{1F0A45B4-0610-3477-87B0-F94D1B6382B4}</Project>
+      <Name>Simple_Texture2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_9\Simple_TextureCubemap\Simple_TextureCubemap.vcxproj">
+      <Project>{74FED22C-F78C-3CE4-ACF6-39E37D9CFCB7}</Project>
+      <Name>Simple_TextureCubemap</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_8\Simple_VertexShader\Simple_VertexShader.vcxproj">
+      <Project>{F7CA3C7C-F3A9-3A36-8165-D80998DED2A7}</Project>
+      <Name>Simple_VertexShader</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_14\TerrainRendering\TerrainRendering.vcxproj">
+      <Project>{C20D611B-F5ED-3C7D-850F-946A7E039E2C}</Project>
+      <Name>TerrainRendering</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_9\TextureWrap\TextureWrap.vcxproj">
+      <Project>{748EE31C-32CA-3E87-8796-56E71BAD1E78}</Project>
+      <Name>TextureWrap</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_6\VertexArrayObjects\VertexArrayObjects.vcxproj">
+      <Project>{6F60CF18-5CAC-39AE-943A-41F824DF8075}</Project>
+      <Name>VertexArrayObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\statics\opengles3.0\opengles3-book\build\Chapter_6\VertexBufferObjects\VertexBufferObjects.vcxproj">
+      <Project>{CA88BD00-C3A3-3573-A142-241FEC09B786}</Project>
+      <Name>VertexBufferObjects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

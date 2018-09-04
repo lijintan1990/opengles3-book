@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\statics\opengles3.0\opengles3-book\build\CMakeFiles\c24c78f33baa3f63e0f4904a6ebb25d4\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D7B83ED3-4DB6-364E-AC2F-8CEFCEECB57E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
